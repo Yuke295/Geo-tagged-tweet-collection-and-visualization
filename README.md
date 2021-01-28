@@ -6,4 +6,6 @@ Twitter data was retrieved using official Twitter API. A reference to the data c
 
 ![map](img/map.png)
 
-In this project, I used the geographic coordinate filtering tweets of the United States to retrieve. And I added the keyword "First Generation College Student" to filter my data. Through the data visualization, I saw a lot more discussion on this topic in the eastern United States. Although, I haven't been able to find the literature to read, my guess is that people are more interested in this topic in the eastern United States. I also hope I could have other data and information to explore more about: "Are there more First College students in the eastern United States?" in the future.
+For this project, I wanted to explore how often people post twitter about "TikTok". So I used the filter keyword "TikTok". By observing the data, I find that there are a lot of comments made by people every five minutes, but only a small part of them are having geographical location. So I ran it five times to get more data with the geographic location. After doing data visualization, I found a relatively high number of publications on "TikTok" in the United States during the same period. But the results are somewhat limited due to time zone differences.
+
+Therefore, through this exploration, I found that when we only select keywords, we can try to run more crawlers to get more useful data with the positions in them. And we can use QGIS to clip to our designated area.
